@@ -1,0 +1,1263 @@
+@import url('fonts-styles.css');
+
+
+/* body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/assets/Ring\ Background.png');
+    background-size: cover;
+    background-attachment: fixed; efecto parallax
+    background-position: center;
+} */
+
+
+
+.fullSize {
+    height: 86vh;
+}
+
+.fullSize-2{
+    height: 100vh;
+}
+
+.fullSize-plus {
+    height: 130vh;
+}
+
+.disciplines-col-height {
+    height: 65vh;
+}
+
+.midSize {
+    height: 48vh;
+}
+
+.no-padding {
+    position: relative;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+}
+
+.car-slide {
+    height: 85vh;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.car-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.glass-div-1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    height: 25%;
+}
+
+.glass-div-2 {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 30%;
+}
+
+.glass-text {
+    cursor: default;
+    letter-spacing: 1px;
+    margin-bottom: -1rem;
+    font-family: 'MakeThemSuffer';
+    text-shadow: 2px 2px 8px #c62011;
+}
+
+.slogan {
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.notice {
+    font-size: 45px;
+}
+
+.text-red {
+    color: red;
+    /* color: #c62011; */
+}
+
+.text-gray {
+    /* color: whitesmoke; */
+    color: rgb(187, 181, 181);
+}
+
+.rotated-svg{
+    z-index: 55;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.index-portrait-flex-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.index-portrait-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.portrait-logo-img {
+    position: absolute;
+    top: 30px;
+    height: 50%;
+    transition: 0.3s;
+    clip-path: circle(50% at center);
+}
+
+.index-portrait-title {
+    cursor: default;
+    margin-top: 230px;
+    font-family: 'GrillMaster';
+    letter-spacing: 5px;
+    font-size: 55px;
+    font-weight: 900;
+    color: antiquewhite;
+    filter: drop-shadow(0 0 5px #8e0505);
+    text-shadow: 0 0 5px #8e0505;
+}
+
+.presentation-logo-container {
+    display: flex;
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    top: 12.5%;
+    right: 10px;
+    /* background-color: #8e0505; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-logo {
+    height: 75%;
+    width: 75%;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(0255, 0255, 0255, 0.05)),
+            url('/assets/thai-knee-bg.png');
+    background-size: contain;
+    background-position: center;
+    clip-path: circle(44% at center);
+    /* transform: rotatey(180deg); */
+}
+
+.academy-presentation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90%;
+    width: 75%;
+}
+
+.students-img-container {
+    height: 75%;
+    width: 75%;
+    border-radius: 20px;
+    border: #0b0b0b 8px solid;
+    overflow: hidden;
+}
+
+.fighters-img-container {
+    height: 75%;
+    width: 65%;
+    border-radius: 20px;
+    border: #540202 7px solid;
+    overflow: hidden;
+}
+
+.google-reviews-container {
+    height: 400px;
+    width: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+    /* border: #540202 7px solid; */
+}
+
+.students-img {
+    height: 100%;
+    width: 100%;
+    background: url('/assets/background/Academy-students2.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.locations-img-container {
+    height: 500px;
+    width: 520px;
+    border-radius: 20px;
+    border: #0b0b0b 7px solid;
+    overflow: hidden;
+}
+
+.map-locations-img {
+    height: 100%;
+    width: 100%;
+    background: url('/assets/map-locations.png');
+    background-size: cover;
+    background-position: right;
+}
+
+
+.fighters-postures-img {
+    height: 100%;
+    width: 100%;
+    /* background: url('/assets/thai-fighters-pustures.png'); */
+    background: 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)),
+            url('/assets/thai-fighters-pustures.png');
+    background-size: cover;
+    background-position: right;
+}
+
+
+.academy-text-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 580px;
+    border: #1a1b1c 6px solid;
+    border-radius: 20px;
+    background-size: contain;
+    /* background-attachment: fixed; */
+    background-position: center;
+    overflow: hidden;
+}
+
+.academy-text-img {
+    height: 100%;
+    width: 100%;
+    background:
+        linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(20, 20, 20, 0.2)),
+            url('/assets/background/Academy-team.jpg');
+    /* border-radius: 50%; */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.presentation-txt-container {
+    display: flex;
+    position: relative;
+    height: 75%;
+    width: 75%;
+    top: 12.5%;
+    left: 50px;
+    /* background-color: #8e0505; */
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.presentation-txt-title {
+    cursor: default;
+    font-family: 'GrillMaster';
+    letter-spacing: 5px;
+    font-size: 55px;
+    font-weight: 900;
+    color: antiquewhite;
+}
+
+.presentation-txt {
+    cursor: default;
+    font-family: 'Montserrat Regular';
+    text-align: start;
+    letter-spacing: 1px;
+    font-size: 21px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.levels-img-container {
+    position: relative;
+    left: 70px;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    border: #540202 6px solid;
+    overflow: hidden;
+}
+
+.values-img-container {
+    position: relative;
+    left: 70px;
+    width: 80%;
+    height: 75%;
+    border-radius: 20px;
+    border: #540202 6px solid;
+    overflow: hidden;
+}
+
+.find-place-img-container {
+    position: relative;
+    right: 70px;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    border: #540202 6px solid;
+    overflow: hidden;
+}
+
+.conect-img-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    border: #1a1b1c 6px solid;
+    overflow: hidden;
+}
+
+.index-col {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+}
+
+.index-widget {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 430px;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+            url('/assets/thai-temple-bg.png');
+    background-size: cover;
+    background-position: center;
+    /* background-color: #1a1b1c; */
+    /* background-color: rgb(37, 37, 37); */
+    border: 3px solid #8e0505;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.ind-wid-title-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 17px;
+    /* background-color: #c62011; */
+}
+
+.ind-wid-text-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+    width: 230px;
+    height: 50%;
+    /* background-color: #c62011; */
+}
+
+.index-widget-text {
+    cursor: default;
+    font-family: 'Montserrat Regular';
+    color: antiquewhite;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.index-widget-title {
+    cursor: default;
+    font-family: 'GrillMaster';
+    color: antiquewhite;
+    font-weight: 900;
+    letter-spacing: 3px;
+    z-index: 1;
+}
+
+.widget-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'GrillMaster';
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-weight: 400;
+    position: absolute;
+    /* width: 80%; */
+    width: 230px;
+    height: 50px;
+    bottom: 25px;
+    /* border-radius: 5px; */
+    border: 2px solid;
+    border-color: transparent;
+    color: black;
+    background-color: #8e0505;
+    transition: 0.4s;
+}
+
+.widget-btn:hover, .location-widget-btn:hover {
+    background-color: transparent;
+    color: antiquewhite;
+    border-color: #8e0505;
+}
+
+.btns-col {
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.content-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coach-widget {
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.widget-row {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.coach-title {
+    cursor: default;
+    font-family: 'GrillMaster';
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+  .vertical-divider-inside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 5px;
+    background-color: #8e0505;
+    z-index: 5;
+  }
+
+.widget-photo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    overflow: hidden;
+}
+
+
+.widget-img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    filter: grayscale(0%);
+    transform: scale(1.01);
+    transition: 0.5s ease;
+}
+
+.widget-img:hover {
+    transform: scale(1.2);
+    filter: grayscale(100%);
+}
+
+.widget-img:hover + .img-glass {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+}
+
+.img-glass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    right: 0;
+    z-index: 50;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.widget-text-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: 
+        linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+            url('/assets/thai-temple-bg.png');
+    background-size: contain;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+.coach-glass-title {
+    cursor: default;
+    font-family: 'GrillMaster';
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.coach-glass-text {
+    cursor: default;
+    font-family: 'GrillMaster';
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.coach-widget-txt {
+    cursor: default;
+    font-family: 'GrillMaster';
+    color: antiquewhite;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.coach-widget-txt-sub {
+    cursor: default;
+    font-family: 'Montserrat Regular';
+    margin-top: 15px;
+    color: antiquewhite;
+    /* letter-spacing: 2px; */
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.team-glass-title {
+    cursor: default;
+    font-family: 'GrillMaster';
+    font-size: 27px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.team-glass-text {
+    cursor: default;
+    font-family: 'GrillMaster';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.team-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1a1b1c; */
+}
+
+.team-widget {
+    position: relative;
+    width: 32rem;
+    height: 19rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.team-widget-left {
+    margin-left: 130px;
+}
+
+.team-widget-right {
+    margin-right: 130px;
+}
+
+
+.team-title {
+    cursor: default;
+    font-family: 'GrillMaster';
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-style: italic;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.team-text-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: start;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px); */
+    background: 
+        linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(20, 20, 20, 0.1)),
+        url('/assets/thai-god-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.team-widget-txt {
+    color: #c62011;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.team-widget-txt-sub {
+    margin-top: 20px;
+    cursor: default;
+    font-family: 'Montserrat Regular';
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.disciplinas {
+    margin: 0;
+    padding: 0;
+}
+
+
+.disciplines-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.disciplines-slide {
+    height: 85vh;
+    width: 100vw;
+}
+
+
+.disciplines-txt-container{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin-top: 40px;
+    /* top: 110px; */
+    transform: skewX(-15deg);
+    z-index: 1;
+}
+
+.disciplines-text-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+    z-index: 5;
+    /* background-color: #8e0505; */
+}
+
+.disciplines-txt-container2{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    bottom: 15%;
+    right: 5%;
+    transform: skewX(-10deg);
+    background-color: rgb(37, 37, 37);
+}
+
+
+.disciplines-description-text {
+    margin-top: 25px;
+    cursor: default;
+    font-family: 'Montserrat Regular';
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    font-size: 21px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.disciplines-invitation-text {
+    margin-top: 25px;
+    cursor: default;
+    font-family: 'Montserrat Regular';
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    font-size: 21px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.disciplines-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 80%;
+    height: 95%;
+    /* background-color: #13863b; */
+}
+
+.disciplines-contact-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 90%;
+}
+
+.disciplines-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 80%;
+}
+
+.muay-thai-image {
+    height: 550px;
+    width: 950px;
+    border-radius: 20px;
+    border: #540202 6px solid;
+    background: url('/assets/background/Fran-teep.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.mma-image {
+    height: 650px;
+    width: 850px;
+    border-radius: 20px;
+    border: #540202 6px solid;
+    background: url('/assets/background/Martin-mma.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-txt-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 240px;
+    top: 40px;
+    left: 110px;
+    transform: skewX(-15deg);
+    z-index: 8;
+    /* background-color: rgb(37, 37, 37); */
+}
+
+.team-txt-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 480px;
+    height: 240px;
+    top: 40px;
+    left: 110px;
+    transform: skewX(-15deg);
+    z-index: 8;
+    /* background-color: rgb(37, 37, 37); */
+}
+
+.video-container{
+    /* position: absolute; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #1a1b1c;
+    width: 620px;
+    height: 340px;
+    z-index: 50;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: skew(-10deg);
+    border: #95150a solid 3.5px;
+}
+
+/* .video-container2{
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    top: 10%;
+    left: 10%;
+    background-color: #1a1b1c;
+    width: 640px;
+    height: 360px;
+    z-index: 50;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: skew(-10deg);
+    border: #95150a solid 3.5px;
+} */
+
+
+.video {
+    width: 100%;
+    height: 100%;
+    transform: skew(10deg) scale(1.1);
+    object-fit: cover;
+}
+
+.video2 {
+    width: 100%;
+    height: 100%;
+    transform: skew(10deg) scale(1.1);
+    object-fit: cover;
+}
+
+.folder-shape {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    transform: skewX(-48deg);
+    background-color: #1a1b1c;
+    /* background-image: url('/assets/Grunge2.png'); */
+    left: 85%;
+    bottom: -6px;
+    /* border: 5px solid #c62011; */
+    /* border: 6px solid rgb(57, 57, 57); */
+    border: 6px solid #95150a;
+}
+
+.folder-shape2 {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    transform: skewX(48deg);
+    background-color: #1a1b1c;
+    /* background-image: url('/assets/Grunge2.png'); */
+    right: 85%;
+    bottom: -6px;
+    /* border: 5px solid #c62011; */
+    /* border: 6px solid rgb(57, 57, 57); */
+    border: 6px solid #95150a;
+}
+
+.folder-shape-child {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 150px;
+    background-color: #0b0b0b;
+    bottom: -6px;
+    /* border: 5px solid #c62011; */
+    border: 6px solid rgb(51, 51, 51);
+}
+
+.folder-shape-child2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 150px;
+    background-color: #0b0b0b;
+    bottom: -6px;
+    /* border: 5px solid #c62011; */
+    border: 6px solid rgb(51, 51, 51);
+}
+
+.visible {
+    transition: opacity 0.7s ease, visibility 0.7s ease, transform 0.7s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+.hidden {
+    transition: opacity 0.7s ease, visibility 0.7s ease, transform 0.7s ease;
+    /* transform: scale(0.5); */
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.container-fluid {
+    overflow: hidden;
+}
+
+
+
+
+.location-text-container {
+    position: absolute;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    display: flex;
+    left: 80px;
+    top: 50px;
+    height: 150px;
+    width: 400px;
+    transform: skewX(-15deg);
+    z-index: 5;
+    /* background-color: rgb(37, 37, 37); */
+}
+
+.locations-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: 490px;
+    /* background-image: url('/assets/martin-middle.JPG'); */
+    /* background-color: rgba(37, 37, 37);
+    border: #95150a 3px solid; */
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.locations-row {
+    height: 100%;
+}
+
+.location-widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    border: 3px solid #95150a;
+    border-radius: 15px;
+    background-image: url('/assets/thai-temple-bg.png');
+    background-size: cover;
+}
+
+.loc-widget-first-left {
+    position: absolute;
+    right: 60px;
+}
+
+.loc-widget-first-right {
+    position: absolute;
+    left: 60px;
+}
+
+.loc-widget-last-left {
+    position: absolute;
+    right: 90px;
+}
+
+.loc-widget-last-right {
+    position: absolute;
+    left: 90px;
+}
+
+.location-title-cont {
+    margin-top: 15px;
+    width: 95%;
+    height: 50px;
+}
+
+.location-widget-title {
+    font-family: 'GrillMaster';
+    color: antiquewhite;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.location-widget-text {
+    font-family: 'Montserrat Regular';
+    color: antiquewhite;
+    letter-spacing: 1px;
+    text-align: start;
+    z-index: 1;
+}
+
+.map-container {
+    margin-top: 0px;
+    width: 250px;
+    height: 230px;
+}
+
+.address-text-cont {
+    margin-top: 15px;
+    width: 80%;
+    height: 60px;
+}
+
+.location-widget-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'GrillMaster';
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 0;
+    width: 220px;
+    height: 50px;
+    border: 2px solid;
+    border-color: transparent;
+    color: black;
+    background-color: #c62011;
+    transition: 0.4s;
+}
+
+.map-frame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
+.disciplines-title {
+    font-family: 'GrillMaster';
+    text-align: center;
+    color: antiquewhite;
+    font-weight: 900;
+    letter-spacing: 3px;
+    z-index: 1;
+}
+
+.disciplines-title-2 {
+    font-family: 'Sancoale';
+    font-size: 150px;
+    text-align: center;
+    color: antiquewhite;
+    font-weight: 900;
+    letter-spacing: 15px;
+    z-index: 1;
+    text-shadow: 
+        -3px -3px 0 #540202,  
+         3px -3px 0 #540202,
+        -3px  3px 0 #540202,
+         3px  3px 0 #540202;
+    cursor: default;
+}
+
+.disciplines-title-3 {
+    font-family: 'Sancoale';
+    font-size: 110px;
+    text-align: center;
+    color: antiquewhite;
+    letter-spacing: 15px;
+    z-index: 1;
+    text-shadow: 
+        -3px -3px 0 #540202,  
+         3px -3px 0 #540202,
+        -3px  3px 0 #540202,
+         3px  3px 0 #540202;
+    cursor: default;
+}
+
+.contacts-row {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 8;
+}
+
+
+.contact-widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 260px;
+    height: 410px;
+    border: 3px solid #95150a;
+    border-radius: 15px;
+    background: 
+        linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(20, 20, 20, 0.1)),
+        url('/assets/thai-temple-bg.png');
+    background-size: contain;
+    background-position: top;
+}
+
+.contact-logo-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 150px;
+    /* background-color: #95150a; */
+}
+
+.widget-logo {
+    margin-bottom: 10px;
+    height: 130px;
+    width: 130px;
+    clip-path: circle(49% at center);
+}
+
+.contact-btns-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #1a1b1c; */
+    width: 250px;
+    height: 175px;
+}
+
+.contact-widget-text {
+    color: antiquewhite;
+    letter-spacing: 1px;
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+.whatsapp-widget-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 10px;
+    color: #1a1b1c;
+    cursor: pointer;
+    font-family: 'GrillMaster';
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 0;
+    width: 220px;
+    height: 50px;
+    border: 2px solid;
+    border-color: transparent;
+    background: radial-gradient(
+    circle,
+    #25D366 30%,     /* centro claro */
+    #13863b 100%     /* bordes más oscuros */
+  );
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+
+.fa-whatsapp {
+    font-size: 30px;
+}
+
+.whatsapp-widget-btn:hover {
+    background: transparent;
+    border-color: #1fab52;
+    color: antiquewhite;
+    transition: 0.4s;
+}
+
+.instagram-widget-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 10px;
+    color: #1a1b1c;
+    cursor: pointer;
+    font-family: 'GrillMaster';
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 0;
+    width: 220px;
+    height: 50px;
+    border: 2px solid;
+    border-color: transparent;
+    background: radial-gradient(
+        circle,
+        #e51b1b 30%,     /* centro claro */
+        #8e0505 100%     /* bordes más oscuros */
+      );
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        transition: 0.4s;
+    transition: 0.4s;
+}
+
+.fa-instagram {
+    font-size: 30px;
+}
+
+.instagram-widget-btn:hover {
+    background: transparent;
+    border-color: #a20e0e;
+    color: antiquewhite;
+    transition: 0.4s;
+}
+

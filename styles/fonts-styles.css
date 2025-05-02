@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'Ebenezer-Regular';
+	src: url('../fonts/ebenezer-regular/ebenezer-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/ebenezer-regular/ebenezer-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		 url('../fonts/ebenezer-regular/ebenezer-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/ebenezer-regular/ebenezer-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		 url('../fonts/ebenezer-regular/ebenezer-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/ebenezer-regular/ebenezer-regular.svg#ebenezer-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'MakeThemSuffer';
+	src: url('../fonts/MakethemSuffeR-Regular/MakethemSuffeR-Regular.otf') format('otf'), /* IE < 9 */
+		 url('../fonts/MakethemSuffeR-Regular/MakethemSuffeR-Regular.ttf') format('truetype'), /* Super Modern Browsers */
+
+}
+
+@font-face {
+	font-family: 'GrillMaster';
+	src: url('../fonts/grillmaster/7c0e945b58190c0f99ed21637050301a.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/grillmaster/7c0e945b58190c0f99ed21637050301a.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		 url('../fonts/grillmaster/7c0e945b58190c0f99ed21637050301a.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/grillmaster/7c0e945b58190c0f99ed21637050301a.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		 url('../fonts/grillmaster/7c0e945b58190c0f99ed21637050301a.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/grillmaster/7c0e945b58190c0f99ed21637050301a.svg') format('svg'); /* Chrome < 4, Legacy iOS */
+
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Regular'), url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Fengardo Neue';
+    font-style: normal;
+    font-weight: normal;
+    src:
+		 url('../fonts/Neue/FengardoNeue_Regular.woff') format('woff'),
+		 url('../fonts/Neue/FengardoNeue_Regular.ttf') format('truetype');
+    }
+
+
+@font-face {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: normal;
+    src:
+		 url('../fonts/Russo_One/RussoOne-Regular.ttf') format('truetype');
+    }
+
+	@font-face {
+		font-family: 'Sancoale';
+		font-style: normal;
+		font-weight: normal;
+		src:
+			 url('../fonts/Sancoale/Sancoale\ Medium.ttf') format('truetype');
+		}
