@@ -3,8 +3,8 @@
   width: 100%;
   height: 100%;
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(20, 20, 20, 0.5)),
-      url('/assets/Grunge2.png');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0.5)),
+      url('../assets/Grunge2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,8 +20,8 @@
   height: 100%;
   top: -15px;
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(20, 20, 20, 0.9)),
-    url('/assets/background/martin-middle.JPG');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url('../assets/background/martin-middle.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -37,22 +37,10 @@
   height: 100%;
   clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(20, 20, 20, 0.6)),
-    url('/assets/granulado-rojo.png');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../assets/granulado-rojo.png');
 }
 
-/* Pseudo-elemento opcional para overlay de ruido */
-/* .angled-section::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    opacity: 0.08;
-    mix-blend-mode: overlay;
-    pointer-events: none;
-    z-index: 2;
-    background-color: rgba(0255, 255, 255, 0.2);
-    backdrop-filter: blur(3px);
-} */
   
 .angled-section-disciplines {
   position: absolute;
@@ -60,9 +48,8 @@
   height: 100%;
   background: 0
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: contain;
-  /* background-repeat: no-repeat; */
   background-position: center;
   background-attachment: fixed;
   clip-path: polygon( 0% 75%, 0% 100%, 100% 100%, 100% 92%);
@@ -76,9 +63,8 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: contain;
-  /* background-repeat: no-repeat; */
   background-position: left;
   background-attachment: fixed;
   clip-path: polygon(90% 0%, 0% 0%, 0% 25%);
@@ -93,7 +79,7 @@
   clip-path: polygon( 0% 74%, 0% 100%, 100% 100%, 100% 90%);
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/granulado-rojo.png');
+      url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -104,7 +90,7 @@
   clip-path: polygon(98% 0%, 0% 0%, 0% 26%);
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/granulado-rojo.png');
+      url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -113,18 +99,12 @@
   width: 100%;
   height: 100%;
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(20, 20, 20, 0.3)),
-    url('/assets/background/Aldu-Recto.jpg');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../assets/background/Aldu-Recto.jpg');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
-
-
-/* CONTACTOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
-
 
 
 .angled-section-contact {
@@ -133,7 +113,7 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: cover;
   background-position: center;
   clip-path: polygon(0% 0%, 100% 0%, 100% 25%, 0% 5%);
@@ -148,7 +128,7 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -164,7 +144,7 @@
   clip-path: polygon(0% 0%, 100% 0%, 100% 27%, 0% 5.5%);
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('/assets/granulado-rojo.png');
+    url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -175,7 +155,7 @@
   clip-path: polygon(0% 59%, 100% 93%, 100% 100%, 0% 100%);
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('/assets/granulado-rojo.png');
+    url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -185,26 +165,11 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('/assets/background/Fran-bloqueo2.jpg');
+    url('../assets/background/Fran-bloqueo2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .angled-section-disciplines-2 {
@@ -213,7 +178,7 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
-      url('/assets/mma-bg.png');
+      url('../assets/mma-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -229,7 +194,7 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
-      url('/assets/mma-bg.png');
+      url('../assets/mma-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -246,7 +211,7 @@
   clip-path: polygon(60.5% 0%, 100% 0%, 100% 100%, 85.5% 100%);
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url('/assets/granulado-rojo.png');
+      url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -257,7 +222,7 @@
   clip-path: polygon( 0% 10%, 20% 100%, 0% 100%);
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url('/assets/granulado-rojo.png');
+      url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -267,35 +232,19 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/background/Dani-lucha.JPG');
+      url('../assets/background/Dani-lucha.JPG');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .angled-section-team {
   position: absolute;
   width: 100%;
   height: 100%;
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(20, 20, 20, 0.6)),
-    url('/assets/Grunge2.png');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../assets/Grunge2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -310,8 +259,8 @@
   width: 100%;
   height: 100%;
   background: 
-  linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(20, 20, 20, 0.6)),
-    url('/assets/Grunge2.png');
+  linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../assets/Grunge2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -326,8 +275,8 @@
   height: 100%;
   clip-path: polygon(0% 60%, 100% 92%, 100% 100%, 0% 100%);
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(20, 20, 20, 0.4)),
-    url('/assets/granulado-rojo.png');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -337,26 +286,10 @@
   height: 100%;
   clip-path: polygon(0% 0%, 100% 0%, 100% 16%, 0% 6%);
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(20, 20, 20, 0.4)),
-    url('/assets/granulado-rojo.png');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../assets/granulado-rojo.png');
   z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .angled-section-academy {
@@ -365,11 +298,10 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: cover;
   background-position: center;
   clip-path: polygon(80% 0%, 100% 0%, 100% 98%);
-  /* clip-path: polygon(100% 72%, 0% 89%, 0% 100%, 100% 100%); */
   z-index: 2;
   overflow: hidden;
 }
@@ -381,11 +313,10 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* clip-path: polygon(0% 60%, 100% 95%, 100% 100%, 0% 100%); */
   clip-path: polygon(0% 2%, 0% 100%, 20% 100%);
   z-index: 2;
   overflow: hidden;
@@ -395,11 +326,10 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  /* clip-path: polygon(0% 0%, 100% 0%, 100% 27%, 0% 5.5%); */
   clip-path: polygon(79% 0%, 100% 0%, 100% 100%);
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/granulado-rojo.png');
+      url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -407,11 +337,10 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  /* clip-path: polygon(0% 59%, 100% 93%, 100% 100%, 0% 100%); */
   clip-path: polygon(0% 0%, 0% 100%, 21% 100% );
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('/assets/granulado-rojo.png');
+    url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -421,12 +350,10 @@
   width: 100%;
   height: 100%;
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(20, 20, 20, 0.3)),
-    url('/assets/background/martin-middle-resized.JPG');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../assets/background/martin-middle-resized.JPG');
   background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
-  /* background-repeat: no-repeat; */
 }
 
 .divider-shape {
@@ -435,61 +362,15 @@
   transform-origin: top;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .angled-section-locations {
   position: absolute;
   width: 100%;
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: cover;
-  /* background-repeat: no-repeat; */
   background-position: center;
-  /* background-attachment: fixed; */
   clip-path: polygon(2% 0%, 100% 0%, 100% 30%);
   z-index: 2;
   overflow: hidden;
@@ -501,11 +382,9 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: contain;
-  /* background-repeat: no-repeat; */
   background-position: left;
-  /* background-attachment: fixed; */
   clip-path: polygon(0% 65%, 0% 100%, 99% 100%);
   z-index: 2;
   overflow: hidden;
@@ -518,7 +397,7 @@
   clip-path: polygon(0% 0%, 100% 0%, 100% 32%);
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/granulado-rojo.png');
+      url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -529,7 +408,7 @@
   clip-path: polygon(0% 63%, 0% 100%, 100% 100%);
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/granulado-rojo.png');
+      url('../assets/granulado-rojo.png');
   z-index: 1;
 }
 
@@ -538,75 +417,17 @@
   width: 100%;
   height: 100%;
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(20, 20, 20, 0.4)),
-      url('/assets/background/Martin\ IKTA.jpg');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url('../assets/background/Martin\ IKTA.jpg');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .index-portrait-bg {
   background: 
     linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
-    url('/assets/thai-tiger-bg.png');
+    url('../assets/thai-tiger-bg.png');
   background-size: contain;
   background-attachment: fixed;
   background-position: center;
@@ -616,16 +437,15 @@
 .index-levels-bg {
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.35), rgba(1, 1, 1, 0.35)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: contain;
-  /* background-attachment: fixed; */
   background-position: center;
 }
 
 .discliplines-writing-bg {
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-writings-bg.png');
+      url('../assets/thai-writings-bg.png');
   background-size: contain;
   background-attachment: fixed;
   background-position: center;
@@ -635,7 +455,7 @@
 .discliplines-cage-bg {
   background: 
     linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
-      url('/assets/mma-bg.png');
+      url('../assets/mma-bg.png');
   background-size: cover;
   background-attachment: fixed;
   background-position: left;
@@ -645,18 +465,16 @@
 .index-presentation-bg {
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url('/assets/thai-painting-bg.png');
+      url('../assets/thai-painting-bg.png');
   background-size: cover;
-  /* background-attachment: fixed; */
   background-position: center;
 }
 
 .academy-row-bg-2 {
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url('/assets/thai-temple-painting.png');
+      url('../assets/thai-temple-painting.png');
   background-size: contain;
-  /* background-attachment: fixed; */
   background-position: center;
 }
 
@@ -664,7 +482,7 @@
 .index-row-bg {
   background: 
   linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url('/assets/thai-god-bg.png');
+    url('../assets/thai-god-bg.png');
   background-size: contain;
   background-attachment: fixed;
   background-position: center;
@@ -673,16 +491,15 @@
 .index-row-bg-2 {
   background: 
   linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url('/assets/thai-god-bg.png');
+    url('../assets/thai-god-bg.png');
   background-size: contain;
-  /* background-attachment: fixed; */
   background-position: center;
 }
 
 .locations-row-bg{
   background: 
-  linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(20, 20, 20, 0.3)),
-    url('/assets/thai-tiger-bg.png');
+  linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../assets/thai-tiger-bg.png');
   background-size: contain;
   background-attachment: fixed;
   background-position: center;
@@ -691,7 +508,7 @@
 .martin-img {
   width: 100%;
   height: 100%;
-  background: url('/assets/background/Martin-Bolsa.JPG');
+  background: url('../assets/background/Martin-Bolsa.JPG');
   background-size: cover;
   background-position: center;
 }
@@ -699,7 +516,7 @@
 .martin-partner-img {
   width: 100%;
   height: 100%;
-  background: url('/assets/background/Martin-partner-small.JPG');
+  background: url('../assets/background/Martin-partner-small.JPG');
   background-size: cover;
   background-position: left;
 }
@@ -709,8 +526,7 @@
   height: 100%;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('/assets/thai-reverence-single-light.png');
-  /* background: url('/assets/thai-reverence-single.png'); */
+      url('../assets/thai-reverence-single-light.png');
   background-size: cover;
   background-position: center;
 }
@@ -719,37 +535,33 @@
 .academy-row-bg{
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url('/assets/thai-papyrum-bg.png');
+      url('../assets/thai-papyrum-bg.png');
   background-size: contain;
-  /* background-attachment: fixed; */
   background-position: center;
 }
 
 .values-col-bg {
   background: 
     linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
-      url('/assets/thai-wai-kru-1.png');
+      url('../assets/thai-wai-kru-1.png');
   background-size: contain;
-  /* background-attachment: fixed; */
   background-position: center;
 }
 
 .values-col-bg-2 {
   background: 
     linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
-      url('/assets/thai-wai-kru-2.png');
+      url('../assets/thai-wai-kru-2.png');
   background-size: contain;
-  /* background-attachment: fixed; */
   background-position: center;
 }
 
 .thai-reverence {
   width: 100%;
   height: 100%;
-  /* background: url('/assets/thai-reverence.png'); */
   background: 
-    linear-gradient(135deg, rgba(0, 0, 0, 0.25), rgba(20, 20, 20, 0.25)),
-      url('/assets/thai-reverence.png');
+    linear-gradient(135deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+      url('../assets/thai-reverence.png');
   background-size: cover;
   background-position: center;
 }
@@ -757,12 +569,7 @@
 .thai-lean-back-bg {
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url('/assets/thai-lean-back.png');
+      url('../assets/thai-lean-back.png');
   background-size: cover;
-  /* background-attachment: fixed; */
   background-position: top;
 }
-
-
-
-
